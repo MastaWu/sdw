@@ -1,77 +1,75 @@
-
-
 <?php
 
 include ("header.php");
 
 ?>
 
-<div class="jumbotron">
+<div id="intro">
 
-    <div class="container">
+      <!-- Header-->
 
-        <h1>Stephen Wu</h1>
+      <header class="container" style="display: block; margin-top: -100px;" id="indexTest">
 
-        <p>Do you know me? How well do you really know me?</p>
+        <div class="row">
 
-        <p><a href="#">About Me</a></p>
+          <div class="col-md-12">
 
-    
-     </div>               
+            <!-- Logo-->
 
-</div>
+            <div class="logo">
 
-<div class="news">
+              <h1>Stephen Wu</h1>
 
-    <div class="container">
+              <h2>Programmer, Developer &amp; Analyst</h2>
 
-        <div class="col-md-12">
-
-            <center>
-
-
-
-            </center>
-
-        </div>
-
-    </div>
-
-</div>
-
-        <div class="container">
-
-            <div class="row">
-
-                <center>
-
-                <div class="col-md-6">
-
-                    <h2>Projects</h2>
-
-                    <p>Programming Projects</p>
-
-                    <p>Car Projects</p>
-
-                    <p>Motorcycle Projects</p>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <h2>Resume</h2>
-
-                    <p>Skills</p>
-
-                    <p>Experience</p>
-
-                    <p>Education/Credentials</p>
-
-                </div>
-
-                </center>
+            </div>
 
           </div>
 
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4" id="project">
+
+            <h4>Project</h4>
+
+            <p>Programming Projects</p>
+
+            <p>Car Projects</p>
+
+            <p>Motorcycle Projects</p>
+
+          </div>
+
+          <div class="col-md-4" id="resume">
+
+            <h4>Resume</h4>
+
+            <p>Test</p>
+
+          </div>
+
+         <div class="col-md-4" id="contact">
+
+            <script>alert("hello");</script>
+
+            <h4 id="contact-info">Contact</h4>
+
+            <p>Phone Number: (804) 822-0489</p>
+
+            <p>Email: wu.stephend@gmail.com</p>
+
+          </div>
+
+        </div>
+
+      </header>
+
     </div>
 
+<?php
+
+include ("footer.php");
+
+?>

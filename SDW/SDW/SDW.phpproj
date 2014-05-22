@@ -20,8 +20,10 @@
     <Compile Include="footer.php" />
     <Compile Include="header.php" />
     <Compile Include="index.php" />
+    <Compile Include="test.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.css" />
+    <Content Include="script.js" />
   </ItemGroup>
 </Project>
