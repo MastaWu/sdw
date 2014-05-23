@@ -20,6 +20,7 @@
     <Compile Include="footer.php" />
     <Compile Include="header.php" />
     <Compile Include="index.php" />
+    <Compile Include="index2.php" />
     <Compile Include="test.php" />
   </ItemGroup>
   <ItemGroup>

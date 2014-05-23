@@ -12,9 +12,9 @@
 
         <script type="text/javascript" src="script.js"></script>
 
-        
-
         <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <title><?php basename(__FILE__); ?></title>
 
     </head>
 

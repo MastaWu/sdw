@@ -9,7 +9,7 @@ jQuery.noConflict();
 
         $(document).ready(function () {
 
-            jQuery('#contact').click(function () {
+            $('#contact').click(function () {
 
                 $('#contact-info').slideToggle('slow');
 
@@ -19,17 +19,7 @@ jQuery.noConflict();
 
         $(document).ready(function () {
 
-            jQuery('#resume').click(function () {
-
-                $('#resume-info').slideToggle('slow');
-
-            });
-
-        });
-
-        $(document).ready(function () {
-
-            jQuery('#project').click(function () {
+            $('#project').click(function () {
 
                 $('#project-info').slideToggle('slow');
 
