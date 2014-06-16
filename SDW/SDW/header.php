@@ -14,7 +14,7 @@
 
         <script src="bootstrap/js/bootstrap.min.js"></script>
 
-        <title><?php basename(__FILE__); ?></title>
+        <title><?php echo $title; ?></title>
 
     </head>
 

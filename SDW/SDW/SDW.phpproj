@@ -22,6 +22,7 @@
     <Compile Include="index.php" />
     <Compile Include="index2.php" />
     <Compile Include="test.php" />
+    <Compile Include="test2.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.css" />

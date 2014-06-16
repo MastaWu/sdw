@@ -1,5 +1,7 @@
 <?php
 
+$title = "Home";
+
 include ("header.php");
 
 ?>
@@ -30,17 +32,17 @@ include ("header.php");
 
         <div class="row">
 
-          <div class="col-md-4" id="project">
+          <div class="col-md-4">
 
-            <h4>Project</h4>
+            <h4 id="project">Projects</h4>
 
             <div id="project-info">
 
-            <p>Programming Projects</p>
+            <p><a href="wordpress-trunk">Programming Projects</a></p>
 
-            <p>Car Projects</p>
+            <p><a href="car.php">Car Projects</a></p>
 
-            <p>Motorcycle Projects</p>
+            <p><a href="motorcycle.php">Motorcycle Projects</a></p>
 
             </div>
 
@@ -98,15 +100,15 @@ Nunc commodo nulla ac malesuada aliquet. Vivamus at libero porttitor, semper vel
                           
                           </div>
 
-          <div class="col-md-4" id="contact">
+          <div class="col-md-4">
 
-            <h4>Contact</h4>
+            <h4 id="contact">Contact</h4>
 
             <div id="contact-info">
 
             <p>Phone Number: (804) 822-0489</p>
 
-            <p>Email: wu.stephend@gmail.com</p>
+            <p>Email: <a href="mailto:wu.stephend+sdw@gmail.com">wu.stephend@gmail.com</a></p>
 
             </div>
 
